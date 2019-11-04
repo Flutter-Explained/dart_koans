@@ -13,7 +13,6 @@ dart chapter-1-asserts.dart
 
 with that it will run the first tests if you finished the first chapter go further to chapter 2 and so on.
 
-
 # Special Thanks
-
+- [Buttermat](https://github.com/butlermatt) - For the initial idea
 - [Stagehand](https://github.com/dart-lang/stagehand/blob/master/LICENSE) - They made it very easy to create this project

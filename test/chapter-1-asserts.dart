@@ -20,7 +20,15 @@ void main() {
 
     test('Should expect true', () {
       print("Your journey begins here: ");
-      expect(true, false, reason: "Replace the word 'false' with 'true'");
+      expect(true, false, reason: "Hint: Replace the word 'false' with 'true'");
+    });
+
+    test("We will compare often values with each other", () {
+      var expectedValue = "Expectation";
+      var realValue = 1 + 1;
+
+      expect(realValue, expectedValue,
+          reason: "Hint: The expectedValue seems to be wrong");
     });
   });
 }
