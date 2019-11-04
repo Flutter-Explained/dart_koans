@@ -24,6 +24,14 @@ Now you have a nice visual overlay for all your tests and can start learning dar
 
 
 ## How it works
+You have two options to start that project.
+
+### 1) Using your IDE (recommended)
+    
+To start it from the IDE you have to setup according to "recommended Tools".
+
+### 2) Running it from the terminal
+
 Just start the
  
 ```
