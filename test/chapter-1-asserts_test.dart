@@ -15,7 +15,7 @@ void main() {
    *
    * Try to fix the following tests
    */
-  group("Expectations => ", () {
+  group("Expectations", () {
     test('Try to fix the following tests', () {});
 
     test('Should expect true', () {
@@ -51,6 +51,7 @@ void main() {
       print(
           "Your first lection was successful, and the next gate has opened for you! ");
       print("Chapter 2: About Strings");
+      expect(true, false, reason: "Are you ready for Chapter 2?");
     });
   });
 }
