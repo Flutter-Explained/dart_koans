@@ -1,3 +1,5 @@
+[![Buy us a coffee](https://img.shields.io/badge/Buy%20us%20a%20coffee-Thanks-green?style=flat)](https://www.buymeacoffee.com/sBGXj7Pl4)
+
 # Dart Koan
 
 A Koan is a learning method to learn a new programming language as developer friendly as possible.
