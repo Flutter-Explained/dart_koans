@@ -15,42 +15,42 @@ void main() {
    *
    * Try to fix the following tests
    */
-  group("Expectations => ", () {
+  group('Expectations => ', () {
     test('Try to fix the following tests', () {});
 
     test('Should expect true', () {
-      print("Your journey begins here: ");
+      print('Your journey begins here: ');
       expect(true, false, reason: "Hint: Replace the word 'false' with 'true'");
     });
 
-    test("We will compare often values with each other", () {
+    test('We will compare often values with each other', () {
       var expectedValue = 0;
       var realValue = 1 + 1;
 
       expect(realValue, expectedValue,
-          reason: "Hint: The expectedValue seems to be wrong");
+          reason: 'Hint: The expectedValue seems to be wrong');
     });
 
-    test("Also the type is important", () {
+    test('Also the type is important', () {
       // This is a variable it can store all kinds of data
       // by just initialize it with the *var* keyword
-      var expectedValue = "2";
+      var expectedValue = '2';
 
       // You can also be precise and enter the type of the variable before
       int realValue = 1 + 1;
 
-      expect(realValue, expectedValue, reason: "Hint: Is a string a number?");
+      expect(realValue, expectedValue, reason: 'Hint: Is a string a number?');
     });
 
-    test("You will often have to enter values to succeed", () {
-      expect("Congratulations!", "",
-          reason: "Hint: Both strings should be identical");
+    test('You will often have to enter values to succeed', () {
+      expect('Congratulations!', '',
+          reason: 'Hint: Both strings should be identical');
     });
 
-    test("Well done!", () {
+    test('Well done!', () {
       print(
-          "Your first lection was successful, and the next gate has opened for you! ");
-      print("Chapter 2: About Strings");
+          'Your first lection was successful, and the next gate has opened for you! ');
+      print('Chapter 2: About Strings');
     });
   });
 }
