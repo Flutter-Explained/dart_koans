@@ -15,12 +15,10 @@ void main() {
    *
    * Try to fix the following tests
    */
-  group('Expectations => ', () {
-    test('Try to fix the following tests', () {});
-
+  group('About Asserts', () {
     test('Should expect true', () {
       print('Your journey begins here: ');
-      expect(true, false, reason: "Hint: Replace the word 'false' with 'true'");
+      expect(true, true, reason: "Hint: Replace the word 'false' with 'true'");
     });
 
     test('We will compare often values with each other', () {
