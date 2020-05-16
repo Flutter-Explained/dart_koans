@@ -1,5 +1,5 @@
-import 'package:dart_koans/dart_koans.dart' as dart_koans;
+import 'package:dart_koans/runner/mountain.dart';
 
-main(List<String> arguments) {
-  print('Hello world: ${dart_koans.calculate()}!');
+void main(List<String> arguments) {
+  Mountain();
 }
