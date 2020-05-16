@@ -5,6 +5,11 @@ That means you will work and correct code in an IDE with the right tools that yo
 
 This idea is grown because there is currently a big interest in flutter and therefore also in Dart.
 
+## Available Chapters
+- Chapter 1: Asserts - Find your enlightment by working with asserts in Dart.
+- Chapter 2: Strings - Working with Strings, concatinations and learning methods of the String object.
+
+
 ## Recommended Tools
 ### Intellij
 If you have Android Studio / Intellij from Jetbrains you have the testing framework already in place.
