@@ -50,6 +50,7 @@ Feel free to contribute to this project.
 
 # Special Thanks
 - [Buttermat](https://github.com/butlermatt) - For the initial idea
+- [Python Koans](https://github.com/gregmalcolm/python_koans) - My inspiration
 - [Stagehand](https://github.com/dart-lang/stagehand/blob/master/LICENSE) - They made it very easy to create this project
 - [Dart Team](https://dart.dev/) - For making this project even possible
 - [Flutter Team](https://flutter.dev/) - To motivate me to start with Dart in the first place
