@@ -18,7 +18,7 @@ void main() {
   group('About Asserts', () {
     test('Should expect true', () {
       print('Your journey begins here: ');
-      expect(true, true, reason: "Hint: Replace the word 'false' with 'true'");
+      expect(true, false, reason: "Hint: Replace the word 'false' with 'true'");
     });
 
     test('We will compare often values with each other', () {
