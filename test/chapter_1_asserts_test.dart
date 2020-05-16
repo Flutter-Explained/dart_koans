@@ -51,6 +51,7 @@ void main() {
       print(
           'Your first lection was successful, and the next gate has opened for you! ');
       print('Chapter 2: About Strings');
+      expect(true, false, reason: 'Are you ready for Chapter 2?');
     });
   });
 }
