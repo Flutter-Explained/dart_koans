@@ -5,10 +5,11 @@ description: A sample command-line application.
 # author: myracledesign <weber.max.1988@live.de>
 
 environment:
-  sdk: '>=2.5.0 <3.0.0'
+  sdk: ">=2.6.0 <3.0.0"
 
-#dependencies:
-#  path: ^1.6.0
+dependencies:
+  path: ^1.6.0
+  watcher: ^0.9.7+15
 
 dev_dependencies:
   pedantic: ^1.9.0

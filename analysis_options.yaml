@@ -16,5 +16,7 @@ analyzer:
   errors:
     - unused_local_variable: info
 
+enable-experiment:
+  - extension-methods
 #   exclude:
 #     - path/to/excluded/files/**

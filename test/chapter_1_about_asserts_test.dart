@@ -18,7 +18,8 @@ void main() {
   group('About Asserts', () {
     test('Should expect true', () {
       print('Your journey begins here: ');
-      expect(true, false, reason: "Hint: Replace the word 'false' with 'true'");
+      expect(true, false,
+          reason: "Hint: Replace the word 'false' with 'true'");
     });
 
     test('We will compare often values with each other', () {
@@ -37,7 +38,8 @@ void main() {
       // You can also be precise and enter the type of the variable before
       int realValue = 1 + 1;
 
-      expect(realValue, expectedValue, reason: 'Hint: Is a string a number?');
+      expect(realValue, expectedValue,
+          reason: 'Hint: Is a string a number?');
     });
 
     test('You will often have to enter values to succeed', () {
