@@ -1,16 +1,16 @@
 # Defines a default set of lint rules enforced for
 # projects at Google. For details and rationale,
-# see https://github.com/dart-lang/pedantic#enabled-lints.
+# see https:///github.com/dart-lang/pedantic#enabled-lints.
 include: package:pedantic/analysis_options.yaml
 
-# For lint rules and documentation, see http://dart-lang.github.io/linter/lints.
+# For lint rules and documentation, see http:///dart-lang.github.io/linter/lints.
 # Uncomment to specify additional rules.
 linter:
   rules:
+    - public_member_api_docs
+
     info:
       - prefer_double_quotes
-
-#     - camel_case_types
 
 analyzer:
   errors:

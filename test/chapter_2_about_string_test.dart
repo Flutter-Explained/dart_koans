@@ -78,7 +78,8 @@ void main() {
       expect(your_answer, "$a, $b");
     });
 
-    test("With \${} you are able to access attributes and concatinate them",
+    test(
+        "With \${} you are able to access attributes and concatinate them",
         () {
       var string = "Concatination is great!";
       expect(your_answer, "${string.length}");

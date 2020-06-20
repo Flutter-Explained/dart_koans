@@ -1,4 +1,4 @@
-[![Buy us a coffee](https://img.shields.io/badge/Buy%20us%20a%20coffee-Thanks-green?style=flat)](https://www.buymeacoffee.com/sBGXj7Pl4)
+[![Buy us a coffee](https:///img.shields.io/badge/Buy%20us%20a%20coffee-Thanks-green?style=flat)](https:///www.buymeacoffee.com/sBGXj7Pl4)
 
 # Dart Koan
 
@@ -51,8 +51,8 @@ with that it will run the first tests if you finished the first chapter go furth
 Feel free to contribute to this project.
 
 # Special Thanks
-- [Buttermat](https://github.com/butlermatt) - For the initial idea
-- [Python Koans](https://github.com/gregmalcolm/python_koans) - My inspiration
-- [Stagehand](https://github.com/dart-lang/stagehand/blob/master/LICENSE) - They made it very easy to create this project
-- [Dart Team](https://dart.dev/) - For making this project even possible
-- [Flutter Team](https://flutter.dev/) - To motivate me to start with Dart in the first place
+- [Buttermat](https:///github.com/butlermatt) - For the initial idea
+- [Python Koans](https:///github.com/gregmalcolm/python_koans) - My inspiration
+- [Stagehand](https:///github.com/dart-lang/stagehand/blob/master/LICENSE) - They made it very easy to create this project
+- [Dart Team](https:///dart.dev/) - For making this project even possible
+- [Flutter Team](https:///flutter.dev/) - To motivate me to start with Dart in the first place
