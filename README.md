@@ -5,12 +5,13 @@
 A Koan is a learning method to learn a new programming language as developer friendly as possible.
 That means you will work and correct code in an IDE with the right tools that you would also use in a Work environment.
 
-This idea is grown because there is currently a big interest in flutter and therefore also in Dart.
+This idea came up because there is currently a big interest in flutter and therefore also in Dart.
+
+
 
 ## Available Chapters
-- Chapter 1: Asserts - Find your enlightment by working with asserts in Dart.
-- Chapter 2: Strings - Working with Strings, concatinations and learning methods of the String object.
-
+- [Chapter 1: Asserts](./lib/chapter_1_about_asserts.dart) - Find your enlightment by working with asserts in Dart.
+- [Chapter 2: Strings](./lib/chapter_2_about_string.dart) - Working with Strings, concatinations and learning methods of the String object.
 
 ## Recommended Tools
 ### Intellij
@@ -18,34 +19,29 @@ If you have Android Studio / Intellij from Jetbrains you have the testing framew
 
 1) Install the Plugin for Dart
 2) Install a Dart SDK
-3) Setup the Test Runner
 
 Now you have a nice visual overlay for all your tests and can start learning dart.
 
 ### Visual Studio Code
 1) Install the Plugin for Dart
 2) Install a Dart SDK
-3) Setup a Test Runner in Debug to run all tests
 
 Now you have a nice visual overlay for all your tests and can start learning dart. 
 
-
 ## How it works
+![Koan Example](./assets/koan_example.gif)
+
 You have two options to start that project.
 
-### 1) Using your IDE (recommended)
-    
-To start it from the IDE you have to setup according to "recommended Tools".
-
-### 2) Running it from the terminal
+### Running it from the terminal
 
 Just start the
  
 ```
-dart chapter-1-asserts.dart
+dart ./bin/main.dart
 ```
 
-with that it will run the first tests if you finished the first chapter go further to chapter 2 and so on.
+this will start the runner, you will have the task to change the code in the lib/folder to solve the challenges.
 
 ## Contribution
 Feel free to contribute to this project.
