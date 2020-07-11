@@ -7,10 +7,11 @@ include: package:pedantic/analysis_options.yaml
 # Uncomment to specify additional rules.
 linter:
   rules:
+    error:
+      - public_member_api_docs
+
     info:
       - prefer_double_quotes
-
-#     - camel_case_types
 
 analyzer:
   errors:

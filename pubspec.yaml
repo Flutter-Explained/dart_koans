@@ -1,8 +1,8 @@
 name: dart_koans
 description: A sample command-line application.
-# version: 1.0.0
-# homepage: https://www.example.com
-# author: myracledesign <weber.max.1988@live.de>
+version: 0.0.2
+homepage: https://github.com/md-weber/dart_koans
+author: Max Weber <info@flutterexplained.live>
 
 environment:
   sdk: ">=2.6.0 <3.0.0"
@@ -10,6 +10,7 @@ environment:
 dependencies:
   path: ^1.6.0
   watcher: ^0.9.7+15
+  ansicolor: ^1.0.2
 
 dev_dependencies:
   pedantic: ^1.9.0

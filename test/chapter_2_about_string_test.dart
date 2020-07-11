@@ -1,116 +1,128 @@
+import 'package:dart_koans/chapter_2_about_string.dart';
 import 'package:test/test.dart';
 
 const your_answer = null;
 
 void main() {
+  Chapter_II_about_string subject;
+
   group('About Strings', () {
-    test('Double quoted strings are strings', () {
-      var string = "Hello, world";
-      expect(your_answer, isA<String>());
+    setUp(() {
+      subject = Chapter_II_about_string();
     });
 
-    test('single quoted strings are strings', () {
-      var string = 'Goodbye, world';
-      expect(your_answer, isA<String>());
+    test("koan_double_quoted_strings_are_strings", () {
+      expect(
+        () => subject.koan_double_quoted_strings_are_strings(),
+        throwsA(isA<AssertionError>()),
+      );
+    });
+    test("koan_single_quoted_strings_are_strings", () {
+      expect(
+        () => subject.koan_single_quoted_strings_are_strings(),
+        throwsA(isA<AssertionError>()),
+      );
+    });
+    test("koan_triple_quoted_strings_are_also_strings", () {
+      expect(
+        () => subject.koan_triple_quoted_strings_are_also_strings(),
+        throwsA(isA<AssertionError>()),
+      );
+    });
+    test("koan_triple_single_quoted_strings_work_too", () {
+      expect(
+        () => subject.koan_triple_single_quoted_strings_work_too(),
+        throwsA(isA<AssertionError>()),
+      );
+    });
+    test("koan_raw_strings_are_also_strings", () {
+      expect(
+        () => subject.koan_raw_strings_are_also_strings(),
+        throwsA(isA<AssertionError>()),
+      );
+    });
+    test("koan_use_single_quotes_to_create_string_with_double_quotes", () {
+      expect(
+        () => subject
+            .koan_use_single_quotes_to_create_string_with_double_quotes(),
+        throwsA(isA<AssertionError>()),
+      );
+    });
+    test("koan_use_double_quotes_to_create_string_with_single_quotes", () {
+      expect(
+        () => subject
+            .koan_use_double_quotes_to_create_string_with_single_quotes(),
+        throwsA(isA<AssertionError>()),
+      );
+    });
+    test("koan_use_backslash_for_escaping_quotes_in_strings", () {
+      expect(
+        () => subject.koan_use_backslash_for_escaping_quotes_in_strings(),
+        throwsA(isA<AssertionError>()),
+      );
+    });
+    test("koan_triple_quoted_strings_can_span_lines", () {
+      expect(
+        () => subject.koan_triple_quoted_strings_can_span_lines(),
+        throwsA(isA<AssertionError>()),
+      );
+    });
+    test("koan_triple_quoted_strings_need_less_escaping", () {
+      expect(
+        () => subject.koan_triple_quoted_strings_need_less_escaping(),
+        throwsA(isA<AssertionError>()),
+      );
+    });
+    test("koan_escaping_quotes_at_the_end_of_a_triple_quoted_string", () {
+      expect(
+        () =>
+            subject.koan_escaping_quotes_at_the_end_of_a_triple_quoted_string(),
+        throwsA(isA<AssertionError>()),
+      );
+    });
+    test("koan_plus_concatenates_strings", () {
+      expect(
+        () => subject.koan_plus_concatenates_strings(),
+        throwsA(isA<AssertionError>()),
+      );
     });
 
-    test('triple quoted strings are also strings', () {
-      var string = """Hallo Welt""";
-      expect(your_answer, isA<String>());
+    test("koan_\$_is_a_better_concatination", () {
+      expect(
+        () => subject.koan_$_is_a_better_concatination(),
+        throwsA(isA<AssertionError>()),
+      );
     });
-
-    test('triple single quoted strings work too', () {
-      var string = '''Bonjour tout le monde!''';
-      expect(your_answer, isA<String>());
+    test("koan_dollar_plus_curly_brackets_allows_attributes_selection", () {
+      expect(
+        () => subject
+            .koan_dollar_plus_curly_brackets_allows_attributes_selection(),
+        throwsA(isA<AssertionError>()),
+      );
     });
-
-    test('raw strings are also strings', () {
-      var string = r"Konnichi wa, world!";
-      expect(your_answer, isA<String>());
+    test("koan_adjacent_strings_are_concatenated_automatically", () {
+      expect(
+        () => subject.koan_adjacent_strings_are_concatenated_automatically(),
+        throwsA(isA<AssertionError>()),
+      );
     });
-
-    test('use single quotes to create string with double quotes', () {
-      var string = 'He said, "Go Away."';
-      assert(your_answer, string);
+    test("koan_plus_will_not_modify_the_original_strings", () {
+      expect(
+        () => subject.koan_plus_will_not_modify_the_original_strings(),
+        throwsA(isA<AssertionError>()),
+      );
     });
-
-    test("use double quotes to create string with single quotes", () {
-      var string = "Don't";
-      expect(your_answer, string);
+    test("koan_plus_equals_will_append_to_the_end_of_the_string", () {
+      expect(
+        () => subject.koan_plus_equals_will_append_to_the_end_of_the_string(),
+        throwsA(isA<AssertionError>()),
+      );
     });
-
-    test("use backslash for escaping quotes in strings", () {
-      var a = "He said, \"Don't\"";
-      var b = 'He said, "Don\'t"';
-      assert(your_answer, a == b);
-    });
-
-    test("triple quoted strings can span lines", () {
-      var string = """
-      Greetings,
-      Partner!
-      """;
-
-      expect(your_answer, string.length);
-    });
-
-    test("triple quoted strings need less escaping", () {
-      var a = "Hello \"world\".";
-      var b = """Hello "world".""";
-
-      expect(your_answer, a == b);
-    });
-
-    test("escaping quotes at the end of a triple quoted string", () {
-      var string = """Hello "world\"""";
-      expect(your_answer, string);
-    });
-
-    test("plus concatenates strings", () {
-      var string = "Hello" + ", " + "World";
-      expect(your_answer, string);
-    });
-
-    test("\$ is a better concatination", () {
-      var a = "Hello";
-      var b = "World";
-
-      expect(your_answer, "$a, $b");
-    });
-
-    test("With \${} you are able to access attributes and concatinate them",
-        () {
-      var string = "Concatination is great!";
-      expect(your_answer, "${string.length}");
-    });
-
-    test("adjacent strings are concatenated automatically", () {
-      var string = "Hello" ", " "World";
-      expect(your_answer, string);
-    });
-
-    test("plus will not modify the original strings", () {
-      var foo = "Hello, ";
-      var bar = "World";
-      var string = foo + bar;
-
-      expect(your_answer, foo);
-      expect(your_answer, bar);
-    });
-
-    test("plus equals will append to the end of the string", () {
-      var foo = "Hello, ";
-      var bar = "World";
-      foo += bar;
-      expect(your_answer, foo);
-    });
-
-    test("plus equals also leaves original string unmodified", () {
-      var original = "Hello, ";
-      var foo = original;
-      var bar = "World";
-      foo += bar;
-      expect(your_answer, original);
+    test("koan_plus_equals_also_leaves_original_string_unmodified", () {
+      expect(
+        () => subject.koan_plus_equals_also_leaves_original_string_unmodified(),
+        throwsA(isA<AssertionError>()),
+      );
     });
   });
 }
