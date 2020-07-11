@@ -18,14 +18,12 @@ If you have Android Studio / Intellij from Jetbrains you have the testing framew
 
 1) Install the Plugin for Dart
 2) Install a Dart SDK
-3) Setup the Test Runner
 
 Now you have a nice visual overlay for all your tests and can start learning dart.
 
 ### Visual Studio Code
 1) Install the Plugin for Dart
 2) Install a Dart SDK
-3) Setup a Test Runner in Debug to run all tests
 
 Now you have a nice visual overlay for all your tests and can start learning dart. 
 
@@ -42,10 +40,10 @@ To start it from the IDE you have to setup according to "recommended Tools".
 Just start the
  
 ```
-dart chapter-1-asserts.dart
+dart ./bin/main.dart
 ```
 
-with that it will run the first tests if you finished the first chapter go further to chapter 2 and so on.
+this will start the runner and you will be able to learn by writing code.
 
 ## Contribution
 Feel free to contribute to this project.
