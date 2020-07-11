@@ -1,8 +1,10 @@
 /// This is the first Chapter About Asserts
 /// it contains all tests to solve to learn Dart Asserts
-class AboutAsserts {
+class Chapter_I_asserts {
+  var your_answer = null;
+
   void koan_about_asserts() {
-    assert(false == true, "Hint: Change false to true");
+    assert(true == false, "Hint: Change false to true");
   }
 
   /// Should learn how to use our tests
@@ -27,6 +29,6 @@ class AboutAsserts {
   }
 
   void koan_enter_values_to_succeed() {
-    assert('FILL_ME_IN' == 'Congratulations!');
+    assert(your_answer == 'Congratulations!');
   }
 }
