@@ -7,8 +7,11 @@ main(List<String> arguments) async {
 
   final manager = ProcessManager();
   await manager.spawn(
-    "pub",
-    ["run", "--enable-asserts", path.relative("./bin/dart_koans_runner.dart")],
+    "dart",
+    [
+      "--enable-asserts",
+      path.absolute(path.relative("./bin/dart_koans_runner.dart"))
+    ],
   );
 
   print("Debug: Watcher is watching!");
@@ -16,12 +19,12 @@ main(List<String> arguments) async {
     final manager = ProcessManager();
 
     try {
+      print("test");
       await manager.spawn(
-        "pub",
+        "dart",
         [
-          "run",
           "--enable-asserts",
-          path.relative("./bin/dart_koans_runner.dart")
+          path.absolute(path.relative("./bin/dart_koans_runner.dart"))
         ],
       );
     } catch (e) {
