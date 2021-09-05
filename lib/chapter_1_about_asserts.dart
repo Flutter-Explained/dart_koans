@@ -1,7 +1,7 @@
 /// This is the first Chapter About Asserts
 /// it contains all tests to solve to learn Dart Asserts
 class Chapter_I_asserts {
-  var your_answer = null;
+  dynamic your_answer = null;
 
   void koan_about_asserts() {
     assert(true == false, "Hint: Change false to true");
