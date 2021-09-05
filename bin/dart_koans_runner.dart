@@ -5,6 +5,7 @@ import 'package:dart_koans/chapter_1_about_asserts.dart';
 import 'package:dart_koans/chapter_2_about_string.dart';
 
 void main() {
+  ansiColorDisabled = false;
   List<Type> runnableChapters = [Chapter_I_asserts, Chapter_II_about_string];
   bool isError = false;
   int classIndex = 0;
@@ -34,8 +35,7 @@ void main() {
           AnsiPen penError = new AnsiPen()..red(bold: true);
           AnsiPen penWarning = new AnsiPen()..yellow(bold: true);
           print(
-            penError(
-                "✖ ${_createSymbolString(entry.key)} has destroyed your karma"),
+            penError("✖ ${_createSymbolString(entry.key)} has destroyed your karma"),
           );
           print("");
           print("Please think about the following:");
