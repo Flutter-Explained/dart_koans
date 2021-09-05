@@ -1,10 +1,10 @@
 import 'package:dart_koans/chapter_2_about_string.dart';
 import 'package:test/test.dart';
 
-const your_answer = null;
+const dynamic your_answer = null;
 
 void main() {
-  Chapter_II_about_string subject;
+  late Chapter_II_about_string subject;
 
   group('About Strings', () {
     setUp(() {

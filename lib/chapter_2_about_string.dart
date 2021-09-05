@@ -1,5 +1,5 @@
 class Chapter_II_about_string {
-  var your_answer = null;
+  dynamic your_answer = null;
 
   void koan_double_quoted_strings_are_strings() {
     var double_quoted_string = "Hello, world";

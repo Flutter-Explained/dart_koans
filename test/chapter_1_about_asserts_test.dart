@@ -3,7 +3,7 @@ import 'package:test/test.dart';
 
 main() {
   group("Chapter 1 About Asserts", () {
-    Chapter_I_asserts subject;
+    late Chapter_I_asserts subject;
     setUp(() {
       subject = Chapter_I_asserts();
     });
