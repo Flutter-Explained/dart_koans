@@ -12,12 +12,4 @@ linter:
 
     info:
       - prefer_double_quotes
-
-analyzer:
-  errors:
-    - unused_local_variable: info
-
-enable-experiment:
-  - extension-methods
-#   exclude:
-#     - path/to/excluded/files/**
+      - unused_local_variable
